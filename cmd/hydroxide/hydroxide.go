@@ -16,12 +16,12 @@ import (
 	"github.com/emersion/go-smtp"
 	"github.com/howeyc/gopass"
 
-	"github.com/emersion/hydroxide/auth"
-	"github.com/emersion/hydroxide/carddav"
-	"github.com/emersion/hydroxide/events"
-	imapbackend "github.com/emersion/hydroxide/imap"
-	"github.com/emersion/hydroxide/protonmail"
-	smtpbackend "github.com/emersion/hydroxide/smtp"
+	"github.com/fellu/hydroxide/auth"
+	"github.com/fellu/hydroxide/carddav"
+	"github.com/fellu/hydroxide/events"
+	imapbackend "github.com/fellu/hydroxide/imap"
+	"github.com/fellu/hydroxide/protonmail"
+	smtpbackend "github.com/fellu/hydroxide/smtp"
 )
 
 func newClient() *protonmail.Client {
